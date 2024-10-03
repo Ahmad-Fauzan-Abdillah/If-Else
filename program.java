@@ -69,7 +69,7 @@ public class Tugas3 {
         System.out.print("Masukkan nominal pembayaran : ");
         uangMasuk = sc.nextDouble();
      
-        if(uangMasuk > total){
+        if(uangMasuk > totalbelanja){
             uangKembalian = uangMasuk-totalbelanja;
             System.out.println("Uang Kembalian : Rp " +uangKembalian); 
         }
